@@ -8,11 +8,11 @@ exports.up = function(knex) {
         tbl
             .increments();
         tbl
-            .string('name', 255)
+            .string('project-name', 255)
             .notNullable()
             .unique();
         tbl
-            .string('description', 255)
+            .string('project-description', 255)
         tbl
             .boolean('completed')
             .notNullable()

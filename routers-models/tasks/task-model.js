@@ -11,7 +11,7 @@ const db = require('../../data/db-config');
 function getAll(){
     return db('tasks')
         .join('projects', 'tasks.project_id', 'projects.id')
-        .select('projects.name', 'projects.description', 'tasks.task-description')
+        .select('projects.project-name', 'projects.project-description', 'tasks.task-description')
 }
 
 function add(task){
