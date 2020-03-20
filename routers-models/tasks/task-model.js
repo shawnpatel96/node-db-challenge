@@ -6,7 +6,7 @@ module.exports = {
     remove
 }
 
-const db = require('../data/db-config');
+const db = require('../../data/db-config');
 
 function getAll(){
     return db('tasks')

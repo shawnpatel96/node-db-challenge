@@ -1,7 +1,7 @@
 const express = require('express');
-const pRouter = require("../projects/project-router");
-const tRouter = require('../tasks/task-router')
-const rRouter = require('../resources/resource-router')
+const pRouter = require("../routers-models/projects/project-router");
+const tRouter = require('../routers-models/tasks/task-router')
+const rRouter = require('../routers-models/resources/resource-router')
 
 
 
@@ -14,3 +14,5 @@ router.use('/resources', rRouter)
 
 
 module.exports = router;
+
+
