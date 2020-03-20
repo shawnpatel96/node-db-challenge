@@ -40,11 +40,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+a relational database is a database that is organized by tables whom are connected to each other(columns are present, primary key/ forieng key)
+
+sql is a query langauge used to manage and munipulte data held in a relational database
+
 - [ ] Why do tables need a `primary key`?
+
+so we can use the primary key(id) to relate back to the main table in a byproduct table via a foriegn key
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+Foriegn Key
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+A 3rd byproduct table relating to the first two tables
 
 ## Minimum Viable Product
 
